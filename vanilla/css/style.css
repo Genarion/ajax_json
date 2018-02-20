@@ -1,0 +1,28 @@
+#menu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: gray;
+  font-size: 1.4rem;
+  background-color: aliceblue;
+}
+#menu p{
+  cursor: pointer;
+}
+#content{
+  width: 50%;
+  margin: 0 auto;
+}
+#content h3{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.5rem
+}
+#content img{
+  width: 50%;
+}
+.error{
+  color: #FF0000;
+}
